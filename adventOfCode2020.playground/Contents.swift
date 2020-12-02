@@ -1,4 +1,4 @@
 import UIKit
 
-let input = ResourceHelper.getInput(from: "1")
-let result = Advent1.multiplyThreeEntriesThatSum(from: input)
+let input = ResourceHelper.getInput(from: "2")
+let result = Advent2.findValidPasswordAmount(input: input)
