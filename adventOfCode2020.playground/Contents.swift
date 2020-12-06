@@ -1,9 +1,5 @@
 import UIKit
 
-let input = ResourceHelper.getInput(from: "4")
-var requiredFields = Set<Advent4.DocumentField>(Advent4.DocumentField.allCases)
-requiredFields.remove(.cid)
-let result = Advent4.countValidPasswords(input,
-                                         requiredFields: requiredFields,
-                                         validateFields: true)
-
+let input = ResourceHelper.getInput(from: "5")
+let maxId = Advent5.findMaxPassId(input)
+let myId = Advent5.findMyPassId(input)
