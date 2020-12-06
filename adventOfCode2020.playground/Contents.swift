@@ -1,5 +1,4 @@
 import UIKit
 
-let input = ResourceHelper.getInput(from: "5")
-let maxId = Advent5.findMaxPassId(input)
-let myId = Advent5.findMyPassId(input)
+let input = ResourceHelper.getInput(from: "6")
+let count = Advent6.countCommonYesAnswers(input)

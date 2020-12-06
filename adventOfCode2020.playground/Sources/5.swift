@@ -1,5 +1,11 @@
 import Foundation
 
+/*
+ let input = ResourceHelper.getInput(from: "5")
+ let maxId = Advent5.findMaxPassId(input)
+ let myId = Advent5.findMyPassId(input)
+ */
+
 public class Advent5 {
     public static func findMaxPassId(_ input: String) -> Int? {
         let passes = input.split(separator: "\n").map { makePassId(string: String($0)) }
