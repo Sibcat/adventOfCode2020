@@ -4,6 +4,10 @@ import Foundation
  1
  let input = ResourceHelper.getInput(from: "6")
  let count = Advent6.countAllYesAnswers(input)
+ 
+2
+ let input = ResourceHelper.getInput(from: "6")
+ let count = Advent6.countCommonYesAnswers(input)
  */
 public class Advent6 {
     public static func countAllYesAnswers(_ input: String) -> Int {

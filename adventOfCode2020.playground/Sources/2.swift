@@ -93,7 +93,7 @@ private extension Advent2 {
 
 extension String {
     // ["match", "group1", "group2"....]
-    func match(_ regex: String) -> [[String]] {
+    fileprivate func match(_ regex: String) -> [[String]] {
         let nsString = self as NSString
         let matches = (try? NSRegularExpression(pattern: regex, options: []))?
             .matches(in: self, options: [], range: NSMakeRange(0, count)).map { match in
