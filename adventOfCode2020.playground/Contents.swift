@@ -1,8 +1,5 @@
 import UIKit
 
-
-
-
-let input = ResourceHelper.getInput(from: "7")
-let bagsContainingCount = Advent7.countPossibleBags(for: "shiny gold", input: input)
-let bagsInside = Advent7.countBagsInside(color: "shiny gold", input: input)
+let input = ResourceHelper.getInput(from: "8")
+let advent8 = Advent8.calcBeforeLoop(input)
+let fixLoop = Advent8.fixLoop(input)
