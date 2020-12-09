@@ -20,6 +20,17 @@ public class Advent1 {
         let nums = makeNums(from: input)
         return multiplyThreeEntriesThatSum(from: nums, desiredSum: desiredSum)
     }
+    
+    public static func findTwoNumbers(in numbers: Set<Int>, withSumEqualTo desiredSum: Int) -> (Int, Int)? {
+        for num in numbers {
+            let numToSearch = desiredSum - num
+            if numbers.contains(numToSearch) {
+                return (num, numToSearch)
+            }
+        }
+        
+        return nil
+    }
 }
 
 private extension Advent1 {
@@ -31,14 +42,8 @@ private extension Advent1 {
     }
     
     static func multiplyTwoEntriesThatSum(from nums: Set<Int>, desiredSum: Int) -> Int? {
-        for num in nums {
-            let numToSearch = desiredSum - num
-            if nums.contains(numToSearch) {
-                return num * numToSearch
-            }
-        }
-        
-        return nil
+        let numbers = findTwoNumbers(in: nums, withSumEqualTo: desiredSum)
+        return numbers.map { $0.1 * $0.0 }
     }
     
     static func multiplyThreeEntriesThatSum(from nums: Set<Int>, desiredSum: Int) -> Int? {
