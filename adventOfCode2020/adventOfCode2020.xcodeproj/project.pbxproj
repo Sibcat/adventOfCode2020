@@ -26,6 +26,13 @@
 		5ED105DB2582878A00F623DB /* ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED105DA2582878A00F623DB /* ResourceHelper.swift */; };
 		5ED105E5258289C000F623DB /* 10 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105E4258289C000F623DB /* 10 */; };
 		5ED105E925829B2A00F623DB /* 10.2 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105E825829B2A00F623DB /* 10.2 */; };
+		5ED105ED258373BE00F623DB /* 11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED105EC258373BE00F623DB /* 11.swift */; };
+		5ED105EE258373BE00F623DB /* 11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED105EC258373BE00F623DB /* 11.swift */; };
+		5ED105F225837AE300F623DB /* 11.1 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105F125837AE300F623DB /* 11.1 */; };
+		5ED105F325837AE300F623DB /* 11.1 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105F125837AE300F623DB /* 11.1 */; };
+		5ED105F725837B1300F623DB /* 11tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED105F625837B1300F623DB /* 11tests.swift */; };
+		5ED105FB25837FDB00F623DB /* 11 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105FA25837FDB00F623DB /* 11 */; };
+		5ED105FC25837FDB00F623DB /* 11 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105FA25837FDB00F623DB /* 11 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,10 @@
 		5ED105DA2582878A00F623DB /* ResourceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceHelper.swift; sourceTree = "<group>"; };
 		5ED105E4258289C000F623DB /* 10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 10; sourceTree = "<group>"; };
 		5ED105E825829B2A00F623DB /* 10.2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 10.2; sourceTree = "<group>"; };
+		5ED105EC258373BE00F623DB /* 11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11.swift; sourceTree = "<group>"; };
+		5ED105F125837AE300F623DB /* 11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 11.1; sourceTree = "<group>"; };
+		5ED105F625837B1300F623DB /* 11tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11tests.swift; sourceTree = "<group>"; };
+		5ED105FA25837FDB00F623DB /* 11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 11; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +136,7 @@
 				5E5D2FF825827F2600DBCA6D /* 10tests.swift */,
 				5E5D2FFA25827F2600DBCA6D /* Info.plist */,
 				5ED105DA2582878A00F623DB /* ResourceHelper.swift */,
+				5ED105F625837B1300F623DB /* 11tests.swift */,
 			);
 			path = adventOfCode2020Tests;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 				5E5D300D25827F7800DBCA6D /* 9.swift */,
 				5E5D301025827F7800DBCA6D /* 8.swift */,
 				5ED105B525827FD200F623DB /* 10.swift */,
+				5ED105EC258373BE00F623DB /* 11.swift */,
 			);
 			name = Days;
 			path = /Users/elenaskvortsova/Documents/GitHub/adventOfCode2020/adventOfCode2020/adventOfCode2020/Days;
@@ -169,6 +182,8 @@
 				5ED105B92582802200F623DB /* 10.1 */,
 				5ED105E4258289C000F623DB /* 10 */,
 				5ED105E825829B2A00F623DB /* 10.2 */,
+				5ED105F125837AE300F623DB /* 11.1 */,
+				5ED105FA25837FDB00F623DB /* 11 */,
 			);
 			name = Resources;
 			path = /Users/elenaskvortsova/Documents/GitHub/adventOfCode2020/adventOfCode2020/adventOfCode2020/Resources;
@@ -267,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED105BA2582802200F623DB /* 10.1 in Resources */,
+				5ED105FB25837FDB00F623DB /* 11 in Resources */,
+				5ED105F225837AE300F623DB /* 11.1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED105FC25837FDB00F623DB /* 11 in Resources */,
 				5ED105E925829B2A00F623DB /* 10.2 in Resources */,
+				5ED105F325837AE300F623DB /* 11.1 in Resources */,
 				5ED105D32582830800F623DB /* 10.1 in Resources */,
 				5ED105E5258289C000F623DB /* 10 in Resources */,
 			);
@@ -289,6 +308,7 @@
 			files = (
 				5ED105C7258280E000F623DB /* 6.swift in Sources */,
 				5ED105C6258280E000F623DB /* 3.swift in Sources */,
+				5ED105ED258373BE00F623DB /* 11.swift in Sources */,
 				5ED105C3258280E000F623DB /* 2.swift in Sources */,
 				5ED105C5258280E000F623DB /* 7.swift in Sources */,
 				5ED105C0258280E000F623DB /* 5.swift in Sources */,
@@ -305,7 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5D2FF925827F2600DBCA6D /* 10tests.swift in Sources */,
+				5ED105EE258373BE00F623DB /* 11.swift in Sources */,
 				5ED105DB2582878A00F623DB /* ResourceHelper.swift in Sources */,
+				5ED105F725837B1300F623DB /* 11tests.swift in Sources */,
 				5ED105CE2582810400F623DB /* 10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
