@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:/Users/elenaskvortsova/Documents/GitHub/adventOfCode2020/adventOfCode2020/adventOfCode2020/Days"
+      name = "Days">
+      <FileRef
+         location = "group:4.swift">
+      </FileRef>
+      <FileRef
+         location = "group:6.swift">
+      </FileRef>
+      <FileRef
+         location = "group:2.swift">
+      </FileRef>
+      <FileRef
+         location = "group:7.swift">
+      </FileRef>
+      <FileRef
+         location = "group:5.swift">
+      </FileRef>
+      <FileRef
+         location = "group:1.swift">
+      </FileRef>
+      <FileRef
+         location = "group:3.swift">
+      </FileRef>
+      <FileRef
+         location = "group:9.swift">
+      </FileRef>
+      <Group
+         location = "group:Helpers"
+         name = "Helpers">
+         <FileRef
+            location = "group:ParseInput.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:8.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/elenaskvortsova/Documents/GitHub/adventOfCode2020/adventOfCode2020/adventOfCode2020/Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:9">
+      </FileRef>
+      <FileRef
+         location = "group:7">
+      </FileRef>
+      <FileRef
+         location = "group:6">
+      </FileRef>
+      <FileRef
+         location = "group:1">
+      </FileRef>
+      <FileRef
+         location = "group:8">
+      </FileRef>
+      <FileRef
+         location = "group:4">
+      </FileRef>
+      <FileRef
+         location = "group:3">
+      </FileRef>
+      <FileRef
+         location = "group:2">
+      </FileRef>
+      <FileRef
+         location = "group:5">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
