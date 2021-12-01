@@ -90,17 +90,3 @@ private extension Advent2 {
         return Record(password: matches[4], policy: policy)
     }
 }
-
-extension String {
-    // ["match", "group1", "group2"....]
-    fileprivate func match(_ regex: String) -> [[String]] {
-        let nsString = self as NSString
-        let matches = (try? NSRegularExpression(pattern: regex, options: []))?
-            .matches(in: self, options: [], range: NSMakeRange(0, count)).map { match in
-                (0..<match.numberOfRanges).map {
-                    match.range(at: $0).location == NSNotFound ? "" : nsString.substring(with: match.range(at: $0))
-                }
-            }
-        return matches ?? []
-    }
-}

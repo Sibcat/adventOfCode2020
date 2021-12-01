@@ -15,6 +15,7 @@
 		5E7069422757E483005CA9D6 /* 2021_day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7069412757E483005CA9D6 /* 2021_day1.swift */; };
 		5E7069452757E5ED005CA9D6 /* 2021day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7069442757E5ED005CA9D6 /* 2021day1.swift */; };
 		5E7069492757EA5D005CA9D6 /* 2021_day1_input1 in Resources */ = {isa = PBXBuildFile; fileRef = 5E7069482757EA5D005CA9D6 /* 2021_day1_input1 */; };
+		5E70694B27580937005CA9D6 /* String+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70694A27580937005CA9D6 /* String+Match.swift */; };
 		5ED105B625827FD200F623DB /* 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED105B525827FD200F623DB /* 10.swift */; };
 		5ED105BA2582802200F623DB /* 10.1 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED105B92582802200F623DB /* 10.1 */; };
 		5ED105C0258280E000F623DB /* 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D300A25827F7800DBCA6D /* 5.swift */; };
@@ -80,6 +81,7 @@
 		5E7069412757E483005CA9D6 /* 2021_day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021_day1.swift; sourceTree = "<group>"; };
 		5E7069442757E5ED005CA9D6 /* 2021day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021day1.swift; sourceTree = "<group>"; };
 		5E7069482757EA5D005CA9D6 /* 2021_day1_input1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2021_day1_input1; sourceTree = "<group>"; };
+		5E70694A27580937005CA9D6 /* String+Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Match.swift"; sourceTree = "<group>"; };
 		5ED105B525827FD200F623DB /* 10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.swift; sourceTree = "<group>"; };
 		5ED105B92582802200F623DB /* 10.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 10.1; sourceTree = "<group>"; };
 		5ED105DA2582878A00F623DB /* ResourceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceHelper.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		5E5D2FEC25827F2600DBCA6D /* adventOfCode2020 */ = {
 			isa = PBXGroup;
 			children = (
+				5E70694A27580937005CA9D6 /* String+Match.swift */,
 				5E5D301125827F7800DBCA6D /* Days */,
 				5E5D2FED25827F2600DBCA6D /* adventOfCode2020.h */,
 				5E5D2FEE25827F2600DBCA6D /* Info.plist */,
@@ -364,6 +367,7 @@
 			files = (
 				5E7069422757E483005CA9D6 /* 2021_day1.swift in Sources */,
 				5ED105C7258280E000F623DB /* 6.swift in Sources */,
+				5E70694B27580937005CA9D6 /* String+Match.swift in Sources */,
 				5ED105C6258280E000F623DB /* 3.swift in Sources */,
 				5E7069402757E46A005CA9D6 /* 2021.swift in Sources */,
 				5ED105ED258373BE00F623DB /* 11.swift in Sources */,

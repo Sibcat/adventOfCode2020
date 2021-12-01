@@ -27,4 +27,29 @@ extension Advent2021 {
         
         return count
     }
+    
+    // TODO: maybe try to do some queue instead
+    static func increasedDepthsBySlidingWindow(in array: [Int], slidingWindowWidth width: Int = 3) -> Int {
+        guard array.count > 0 else {
+            return 0
+        }
+        
+        var counters = Array(repeating: 0, count: array.count - width + 1)
+        let backOffset = -width + 1
+        for i in 0..<array.count {
+            if 0 < i && i < counters.count {
+                counters[i] += array[i]
+            }
+            for j in backOffset..<0 {
+                let counterIndex = i + j
+                if 0 < counterIndex && counterIndex < counters.count {
+                    counters[counterIndex] += array[i]
+                }
+            }
+        }
+        
+        let count = increasedDepthCount(in: counters)
+        
+        return count
+    }
 }
