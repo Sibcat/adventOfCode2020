@@ -1,3 +1,3 @@
-# adventOfCode2020
-Solutions for https://adventofcode.com/2020/
+# adventOfCode
+Solutions for https://adventofcode.com/2020/ and https://adventofcode.com/2021/
 Swift
