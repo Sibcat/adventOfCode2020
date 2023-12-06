@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Advent2023 {}
+struct Advent2023 {
+    static func getInput(from input: String) -> [String] {
+        return input.components(separatedBy: "\n")
+    }
+}
 
 extension Advent2023 {
     
@@ -31,10 +35,6 @@ extension Advent2023 {
         "owt" : 2,
         "eno" : 1
     ]
-    
-    static func getInput(from input: String) -> [String] {
-        return input.components(separatedBy: "\n")
-    }
     
     static func getCalibrationValues(from inputStrings: [String]) -> [Int] {
         let values = inputStrings.compactMap { (input: String) -> Int? in
