@@ -11,6 +11,8 @@
 		5E164E462B1FF31E00DEBF71 /* 2023day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E164E452B1FF31E00DEBF71 /* 2023day1.swift */; };
 		5E164E492B1FF34100DEBF71 /* 2023_day1_input1 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */; };
 		5E164E4B2B1FF35300DEBF71 /* 2023_day1_test1 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */; };
+		5E164E4D2B1FFC9C00DEBF71 /* 2023_day1_test2 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E4C2B1FFC9C00DEBF71 /* 2023_day1_test2 */; };
+		5E164E512B20850300DEBF71 /* 2023_day1_test3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E502B20850300DEBF71 /* 2023_day1_test3 */; };
 		5E5D2FF425827F2600DBCA6D /* adventOfCode2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5D2FEA25827F2600DBCA6D /* adventOfCode2020.framework */; };
 		5E5D2FF925827F2600DBCA6D /* 10tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D2FF825827F2600DBCA6D /* 10tests.swift */; };
 		5E5D2FFB25827F2600DBCA6D /* adventOfCode2020.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5D2FED25827F2600DBCA6D /* adventOfCode2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +70,8 @@
 		5E164E452B1FF31E00DEBF71 /* 2023day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2023day1.swift; sourceTree = "<group>"; };
 		5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_input1; sourceTree = "<group>"; };
 		5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_test1; sourceTree = "<group>"; };
+		5E164E4C2B1FFC9C00DEBF71 /* 2023_day1_test2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_test2; sourceTree = "<group>"; };
+		5E164E502B20850300DEBF71 /* 2023_day1_test3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_test3; sourceTree = "<group>"; };
 		5E5D2FEA25827F2600DBCA6D /* adventOfCode2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = adventOfCode2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D2FED25827F2600DBCA6D /* adventOfCode2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adventOfCode2020.h; sourceTree = "<group>"; };
 		5E5D2FEE25827F2600DBCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 			children = (
 				5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */,
 				5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */,
+				5E164E4C2B1FFC9C00DEBF71 /* 2023_day1_test2 */,
+				5E164E502B20850300DEBF71 /* 2023_day1_test3 */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -412,11 +418,13 @@
 				5E7069492757EA5D005CA9D6 /* 2021_day1_input1 in Resources */,
 				5E70694F2758B127005CA9D6 /* 2021_day2_test in Resources */,
 				5ED105FC25837FDB00F623DB /* 11 in Resources */,
+				5E164E512B20850300DEBF71 /* 2023_day1_test3 in Resources */,
 				5E706959275A0278005CA9D6 /* 2021_day3_test in Resources */,
 				5E70695B275A0313005CA9D6 /* 2021_day3_input in Resources */,
 				5ED105E925829B2A00F623DB /* 10.2 in Resources */,
 				5ED105F325837AE300F623DB /* 11.1 in Resources */,
 				5ED105D32582830800F623DB /* 10.1 in Resources */,
+				5E164E4D2B1FFC9C00DEBF71 /* 2023_day1_test2 in Resources */,
 				5E164E492B1FF34100DEBF71 /* 2023_day1_input1 in Resources */,
 				5E164E4B2B1FF35300DEBF71 /* 2023_day1_test1 in Resources */,
 				5E70693E2757E440005CA9D6 /* 2021_day1_test1 in Resources */,
@@ -530,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -588,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
