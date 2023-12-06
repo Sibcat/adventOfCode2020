@@ -35,4 +35,20 @@ class AdventOfCode2023Day2: XCTestCase {
         let result = Advent2023.getSumOfPossibleGames(for: config, in: games)
         XCTAssertEqual(result, 2317)
     }
+    
+    func testDay2Test2() {
+        let input = ResourceHelper.instance.getInput(from: "2023_day2_test1")
+        let inputStrings = Advent2023.getInput(from: input)
+        let games = Advent2023.getMinAmountOfCubesInGames(from: inputStrings)
+        let result = Advent2023.getMinCubesCountPower(from: games)
+        XCTAssertEqual(result, 2286)
+    }
+    
+    func testDay2Input2() {
+        let input = ResourceHelper.instance.getInput(from: "2023_day2_input1")
+        let inputStrings = Advent2023.getInput(from: input)
+        let games = Advent2023.getMinAmountOfCubesInGames(from: inputStrings)
+        let result = Advent2023.getMinCubesCountPower(from: games)
+        XCTAssertEqual(result, 74804)
+    }
 }

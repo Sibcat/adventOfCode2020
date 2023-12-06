@@ -28,8 +28,6 @@ extension Advent2023 {
                     game[cubeColor] = max(currentCubeCount, cubeCount)
                 }
             }
-            print(gameInfo)
-            print(game)
             return game
         }
         
@@ -49,6 +47,14 @@ extension Advent2023 {
                 sum += index + 1
                 print(index + 1)
             }
+        }
+        return sum
+    }
+    
+    static func getMinCubesCountPower(from games: [CubeGame]) -> Int {
+        var sum = 0
+        for game in games {
+            sum += game.values.reduce(1, *)
         }
         return sum
     }
