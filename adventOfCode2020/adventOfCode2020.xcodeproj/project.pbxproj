@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E164E432B1FF30700DEBF71 /* 2023_day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E164E422B1FF30700DEBF71 /* 2023_day1.swift */; };
+		5E164E462B1FF31E00DEBF71 /* 2023day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E164E452B1FF31E00DEBF71 /* 2023day1.swift */; };
+		5E164E492B1FF34100DEBF71 /* 2023_day1_input1 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */; };
+		5E164E4B2B1FF35300DEBF71 /* 2023_day1_test1 in Resources */ = {isa = PBXBuildFile; fileRef = 5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */; };
 		5E5D2FF425827F2600DBCA6D /* adventOfCode2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5D2FEA25827F2600DBCA6D /* adventOfCode2020.framework */; };
 		5E5D2FF925827F2600DBCA6D /* 10tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D2FF825827F2600DBCA6D /* 10tests.swift */; };
 		5E5D2FFB25827F2600DBCA6D /* adventOfCode2020.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5D2FED25827F2600DBCA6D /* adventOfCode2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E164E422B1FF30700DEBF71 /* 2023_day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2023_day1.swift; sourceTree = "<group>"; };
+		5E164E452B1FF31E00DEBF71 /* 2023day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2023day1.swift; sourceTree = "<group>"; };
+		5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_input1; sourceTree = "<group>"; };
+		5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2023_day1_test1; sourceTree = "<group>"; };
 		5E5D2FEA25827F2600DBCA6D /* adventOfCode2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = adventOfCode2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D2FED25827F2600DBCA6D /* adventOfCode2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adventOfCode2020.h; sourceTree = "<group>"; };
 		5E5D2FEE25827F2600DBCA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +136,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E164E412B1FF2F700DEBF71 /* 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				5E164E422B1FF30700DEBF71 /* 2023_day1.swift */,
+			);
+			path = 2023;
+			sourceTree = "<group>";
+		};
+		5E164E442B1FF30E00DEBF71 /* 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				5E164E452B1FF31E00DEBF71 /* 2023day1.swift */,
+			);
+			path = 2023;
+			sourceTree = "<group>";
+		};
+		5E164E472B1FF32100DEBF71 /* 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				5E164E482B1FF34100DEBF71 /* 2023_day1_input1 */,
+				5E164E4A2B1FF35300DEBF71 /* 2023_day1_test1 */,
+			);
+			path = 2023;
+			sourceTree = "<group>";
+		};
 		5E5D2FE025827F2600DBCA6D = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +193,7 @@
 		5E5D2FF725827F2600DBCA6D /* adventOfCode2020Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5E164E442B1FF30E00DEBF71 /* 2023 */,
 				5E7069432757E5CC005CA9D6 /* 2021 */,
 				5E70693A2757E404005CA9D6 /* 2020 */,
 				5E5D301B25827F7800DBCA6D /* Resources */,
@@ -172,6 +206,7 @@
 		5E5D301125827F7800DBCA6D /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				5E164E412B1FF2F700DEBF71 /* 2023 */,
 				5E70693C2757E417005CA9D6 /* 2021 */,
 				5E7069382757E3E5005CA9D6 /* 2020 */,
 			);
@@ -181,6 +216,7 @@
 		5E5D301B25827F7800DBCA6D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E164E472B1FF32100DEBF71 /* 2023 */,
 				5E70693B2757E40F005CA9D6 /* 2021 */,
 				5E7069392757E3F5005CA9D6 /* 2020 */,
 			);
@@ -381,6 +417,8 @@
 				5ED105E925829B2A00F623DB /* 10.2 in Resources */,
 				5ED105F325837AE300F623DB /* 11.1 in Resources */,
 				5ED105D32582830800F623DB /* 10.1 in Resources */,
+				5E164E492B1FF34100DEBF71 /* 2023_day1_input1 in Resources */,
+				5E164E4B2B1FF35300DEBF71 /* 2023_day1_test1 in Resources */,
 				5E70693E2757E440005CA9D6 /* 2021_day1_test1 in Resources */,
 				5ED105E5258289C000F623DB /* 10 in Resources */,
 			);
@@ -403,6 +441,7 @@
 				5ED105C5258280E000F623DB /* 7.swift in Sources */,
 				5ED105C0258280E000F623DB /* 5.swift in Sources */,
 				5ED105C4258280E000F623DB /* 9.swift in Sources */,
+				5E164E432B1FF30700DEBF71 /* 2023_day1.swift in Sources */,
 				5ED105C1258280E000F623DB /* 8.swift in Sources */,
 				5ED105C2258280E000F623DB /* 4.swift in Sources */,
 				5E70694D2758AE8E005CA9D6 /* 2021_day2.swift in Sources */,
@@ -420,6 +459,7 @@
 				5E7069512758B146005CA9D6 /* 2021day2.swift in Sources */,
 				5E7069452757E5ED005CA9D6 /* 2021day1.swift in Sources */,
 				5ED105EE258373BE00F623DB /* 11.swift in Sources */,
+				5E164E462B1FF31E00DEBF71 /* 2023day1.swift in Sources */,
 				5ED105DB2582878A00F623DB /* ResourceHelper.swift in Sources */,
 				5ED105F725837B1300F623DB /* 11tests.swift in Sources */,
 				5ED105CE2582810400F623DB /* 10.swift in Sources */,
